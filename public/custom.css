@@ -1,0 +1,62 @@
+.form-inline  > label {
+    display: flow-root;
+    padding-left: 0;
+}
+.box {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+.col_collasp_right {
+    padding-right: 0;
+}
+.col_collasp_left {
+    padding-left: 0;
+}
+.side_height {
+    /* height: 100%;     */
+    height: 288px;
+    overflow: scroll;
+}
+.resultMsg{
+    background: antiquewhite;
+}
+.remainMsg{
+    margin-left: 22px;
+    color: crimson;
+}
+
+#loaderContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader img {
+    width: 50px; /* Adjust the size of the loader image as needed */
+}
+
+
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%; */
+
+  }
+  
+  .box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f7f7f7;
+    /* width: 50%; */
+  }
+  
